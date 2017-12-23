@@ -1,8 +1,7 @@
 org.springframework.cloud.contract.spec.Contract.make {
-    //ignored()
     request {
         method 'GET'
-        urlPath('/greet/afternoon/john')
+        urlPath('/greet/john')
     }
     response {
         status 200
